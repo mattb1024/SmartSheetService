@@ -1,0 +1,415 @@
+2015-05-22 22:03:05,644 [8] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-22 22:03:10,018 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-22 22:03:10,028 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-22 22:03:20,002 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-22 22:03:20,003 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-22 22:03:29,999 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-22 22:03:30,000 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-22 22:03:40,000 [DefaultQuartzScheduler_Worker-4] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-22 22:03:40,001 [DefaultQuartzScheduler_Worker-4] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-22 22:03:49,999 [DefaultQuartzScheduler_Worker-5] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-22 22:03:50,000 [DefaultQuartzScheduler_Worker-5] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-22 22:04:00,000 [DefaultQuartzScheduler_Worker-6] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-22 22:04:00,001 [DefaultQuartzScheduler_Worker-6] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-22 22:04:10,001 [DefaultQuartzScheduler_Worker-7] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-22 22:04:10,002 [DefaultQuartzScheduler_Worker-7] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-22 22:04:20,000 [DefaultQuartzScheduler_Worker-8] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-22 22:04:20,001 [DefaultQuartzScheduler_Worker-8] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-22 22:04:29,999 [DefaultQuartzScheduler_Worker-9] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-22 22:04:30,000 [DefaultQuartzScheduler_Worker-9] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-22 22:04:40,001 [DefaultQuartzScheduler_Worker-10] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-22 22:04:40,001 [DefaultQuartzScheduler_Worker-10] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-22 22:04:49,999 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-22 22:04:50,000 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-22 22:06:33,346 [8] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-22 22:06:40,020 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-22 22:06:40,030 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-24 12:20:28,468 [10] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 12:20:28,593 [10] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service started
+2015-05-24 12:20:28,655 [10] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 12:20:30,062 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:20:30,062 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-24 12:20:30,077 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-24 12:20:30,077 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:20:40,013 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:20:40,013 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-24 12:20:40,013 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-24 12:20:40,013 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:20:50,011 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:20:50,011 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-24 12:20:50,011 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-24 12:20:50,011 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:21:00,016 [DefaultQuartzScheduler_Worker-4] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:21:00,016 [DefaultQuartzScheduler_Worker-4] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-24 12:21:00,016 [DefaultQuartzScheduler_Worker-4] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-24 12:21:00,016 [DefaultQuartzScheduler_Worker-4] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:21:10,008 [DefaultQuartzScheduler_Worker-5] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:21:10,008 [DefaultQuartzScheduler_Worker-5] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - This has been run
+2015-05-24 12:21:10,008 [DefaultQuartzScheduler_Worker-5] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - I want to put an Async Task here
+2015-05-24 12:21:10,008 [DefaultQuartzScheduler_Worker-5] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:32:53,602 [10] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 12:32:53,743 [10] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service started
+2015-05-24 12:32:53,759 [10] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 12:33:00,055 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:33:00,072 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:33:00,096 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:33:02,143 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:33:02 PM. Status received: NotFound
+2015-05-24 12:33:10,008 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:33:10,008 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:33:10,008 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:33:10,882 [29] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:33:10 PM. Status received: NotFound
+2015-05-24 12:33:20,008 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:33:20,008 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:33:20,008 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:33:20,912 [27] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:33:20 PM. Status received: NotFound
+2015-05-24 12:40:57,227 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 12:40:57,341 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service started
+2015-05-24 12:40:57,357 [9] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 12:41:00,048 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:41:00,048 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:41:00,063 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:41:01,579 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - the following sheetId will be processed 372359472408452
+2015-05-24 12:41:01,860 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - the following sheetId will be processed 3433443
+2015-05-24 12:41:01,860 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:41:01 PM. Status received: NotFound
+2015-05-24 12:41:10,005 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:41:10,005 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:41:10,005 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:41:10,503 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - the following sheetId will be processed 372359472408452
+2015-05-24 12:41:10,768 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - the following sheetId will be processed 3433443
+2015-05-24 12:41:10,768 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:41:10 PM. Status received: NotFound
+2015-05-24 12:44:19,561 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 12:44:19,686 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service started
+2015-05-24 12:44:19,702 [9] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 12:44:20,063 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:44:20,063 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:44:20,079 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:44:21,673 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:44:21,939 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 12:44:21,955 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:44:21 PM. Status received: NotFound
+2015-05-24 12:44:30,001 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:44:30,001 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:44:30,005 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:44:30,528 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:44:30,794 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 12:44:30,794 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:44:30 PM. Status received: NotFound
+2015-05-24 12:46:28,384 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 12:46:28,509 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service started
+2015-05-24 12:46:28,525 [9] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 12:46:30,056 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:46:30,056 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:46:30,072 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:46:31,658 [27] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:46:31,924 [28] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 12:46:31,924 [28] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:46:31 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 12:46:40,000 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:46:40,000 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:46:40,000 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:46:40,530 [28] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:46:40,889 [27] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 12:46:40,889 [27] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:46:40 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 12:49:00,803 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 12:49:01,023 [9] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Debug\SmartSheetWindowsService.vshost.exe.Config line 76)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at SmartSheetWindowsService.SmartSheetService.Start() in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\SmartSheetService.cs:line 47
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 12:49:38,376 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 12:49:38,566 [9] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.Configuration.ConfigurationErrorsException: The configuration section cannot contain a CDATA or text element. (C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Debug\SmartSheetWindowsService.vshost.exe.Config line 76)
+   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.get_AppSettings()
+   at SmartSheetWindowsService.SmartSheetService.Start() in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\SmartSheetService.cs:line 47
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 12:50:49,423 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 12:50:49,517 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service started
+2015-05-24 12:50:49,548 [9] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 12:50:50,022 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:50:50,022 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:50:50,038 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:50:51,444 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:50:51,444 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 372359472408452 at 5/24/2015 12:50:51 PM. Status received: Unauthorized.  The failing call was  https://api.smartsheet.com/1.1/sheet/372359472408452
+2015-05-24 12:50:51,741 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 12:50:51,741 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:50:51 PM. Status received: Unauthorized.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 12:51:00,014 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:51:00,014 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:51:00,014 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:51:00,264 [28] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:51:00,264 [28] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 372359472408452 at 5/24/2015 12:51:00 PM. Status received: Unauthorized.  The failing call was  https://api.smartsheet.com/1.1/sheet/372359472408452
+2015-05-24 12:51:00,529 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 12:51:00,529 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:51:00 PM. Status received: Unauthorized.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 12:52:22,375 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 12:52:22,485 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service started
+2015-05-24 12:52:22,500 [9] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 12:52:30,045 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:52:30,045 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:52:30,045 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:52:31,717 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:52:31,998 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 12:52:31,998 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:52:31 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 12:52:40,007 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:52:40,007 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:52:40,007 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:52:40,601 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:52:40,878 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 12:52:40,878 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:52:40 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 12:52:50,002 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:52:50,002 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:52:50,002 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:52:50,544 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:57:32,478 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 12:57:32,619 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service started
+2015-05-24 12:57:32,634 [9] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 12:57:40,061 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:57:40,061 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:57:40,076 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:57:41,705 [24] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:57:41,971 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 12:57:41,971 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:57:41 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 12:57:42,596 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Mail with message SendGrid.SendGridMessagewas not sent.
+2015-05-24 12:57:50,000 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:57:50,000 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:57:50,000 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:57:50,531 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:57:50,781 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 12:57:50,781 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:57:50 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 12:57:51,131 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Mail with message SendGrid.SendGridMessagewas not sent.
+2015-05-24 12:58:26,351 [8] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 12:58:26,461 [8] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service started
+2015-05-24 12:58:26,492 [8] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 12:58:30,049 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:58:30,049 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:58:30,065 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:58:31,852 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:58:32,118 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 12:58:32,134 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:58:32 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 12:58:32,732 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Mail with message Bad Request Check `Errors` for a list of errors returned by the API.was not sent.
+2015-05-24 12:58:40,003 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:58:40,003 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:58:40,003 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:58:40,534 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:58:40,802 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 12:58:40,802 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:58:40 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 12:58:41,224 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Mail with message Bad Request Check `Errors` for a list of errors returned by the API.was not sent.
+2015-05-24 12:58:50,012 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 12:58:50,012 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 12:58:50,012 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 12:58:50,559 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 12:58:50,824 [28] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 12:58:50,824 [28] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 12:58:50 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 12:58:51,250 [28] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Mail with message Bad Request Check `Errors` for a list of errors returned by the API.was not sent.
+2015-05-24 13:00:13,804 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 13:00:13,930 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service started
+2015-05-24 13:00:13,946 [9] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 13:00:20,054 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 13:00:20,054 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 13:00:20,069 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 13:00:21,605 [24] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 13:00:21,871 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 13:00:21,871 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 1:00:21 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 13:00:22,293 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Mail with message SendGrid.SendGridMessagewas sent
+2015-05-24 13:00:30,011 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 13:00:30,011 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 13:00:30,011 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 13:00:30,542 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 13:00:30,824 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 13:00:30,824 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 1:00:30 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 13:00:31,027 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Mail with message SendGrid.SendGridMessagewas sent
+2015-05-24 13:01:40,303 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 13:01:40,428 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service started
+2015-05-24 13:01:40,443 [9] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 13:01:40,506 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 13:01:40,693 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 13:01:40,725 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 13:01:42,363 [27] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 13:01:42,644 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 13:01:42,644 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 1:01:42 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 13:01:42,988 [27] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Mail with message Something failed for Worksheet ID 3433443 at 5/24/2015 1:01:42 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443 was sent
+2015-05-24 13:01:50,005 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 13:01:50,005 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 13:01:50,005 [DefaultQuartzScheduler_Worker-2] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 13:01:50,521 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 13:01:50,786 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 13:01:50,786 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 1:01:50 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 13:01:51,005 [29] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Mail with message Something failed for Worksheet ID 3433443 at 5/24/2015 1:01:50 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443 was sent
+2015-05-24 13:02:00,002 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 13:02:00,002 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 13:02:00,002 [DefaultQuartzScheduler_Worker-3] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 13:02:00,507 [26] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 13:02:00,772 [29] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 13:02:00,772 [29] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 1:02:00 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 13:02:00,981 [27] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Mail with message Something failed for Worksheet ID 3433443 at 5/24/2015 1:02:00 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443 was sent
+2015-05-24 13:02:10,010 [DefaultQuartzScheduler_Worker-4] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 13:02:10,010 [DefaultQuartzScheduler_Worker-4] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 13:02:10,010 [DefaultQuartzScheduler_Worker-4] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 13:02:10,519 [29] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 13:02:10,785 [31] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 13:02:10,785 [31] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 1:02:10 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 13:02:11,050 [29] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Mail with message Something failed for Worksheet ID 3433443 at 5/24/2015 1:02:10 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443 was sent
+2015-05-24 13:02:20,010 [DefaultQuartzScheduler_Worker-5] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 13:02:20,010 [DefaultQuartzScheduler_Worker-5] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 13:02:20,010 [DefaultQuartzScheduler_Worker-5] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 13:02:20,568 [27] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 13:02:20,823 [31] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 13:02:20,823 [31] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 1:02:20 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 13:02:21,027 [29] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Mail with message Something failed for Worksheet ID 3433443 at 5/24/2015 1:02:20 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443 was sent
+2015-05-24 13:08:35,482 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service starting
+2015-05-24 13:08:35,622 [9] INFO  SmartSheetWindowsService.SmartSheetService [(null)] - SmartSheet Windows Service started
+2015-05-24 13:08:35,638 [9] FATAL SmartSheetWindowsService.Program [(null)] - Exception during startup.
+System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at Atlas.Console.ConsoleWrapper.ReadKey()
+   at Atlas.Runners.ConsoleRunner.Process()
+   at Atlas.Runners.ConsoleRunner.Run()
+   at Atlas.Initialization.RunInitialization.Initialize[TProcessorHost](Configuration`1 configuration)
+   at Atlas.Host.Run[THostedProcess](Configuration`1 configuration)
+   at Atlas.Host.Start[THostedProcess](Configuration`1 configuration)
+   at SmartSheetWindowsService.Program.Main(String[] args) in c:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\Program.cs:line 35
+2015-05-24 13:08:40,048 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executing
+2015-05-24 13:08:40,048 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Running the Async HTTP_GET task...
+2015-05-24 13:08:40,048 [DefaultQuartzScheduler_Worker-1] INFO  SmartSheetWindowsService.SmartSheetJob [(null)] - Job executed
+2015-05-24 13:08:41,747 [24] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 372359472408452
+2015-05-24 13:08:42,024 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Processing sheetId 3433443
+2015-05-24 13:08:42,027 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Something failed for Worksheet ID 3433443 at 5/24/2015 1:08:42 PM. Status received: NotFound.  The failing call was  https://api.smartsheet.com/1.1/sheet/3433443
+2015-05-24 13:08:42,620 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Send Mail exception caught...
+2015-05-24 13:08:42,620 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Mail with message Bad Request Check `Errors` for a list of errors returned by the API.was not delivered as expected.
+2015-05-24 13:08:42,620 [25] INFO  SmartSheetWindowsService.SmartSheetLogicLayer [(null)] - Check your SendGrid and Domain credentials

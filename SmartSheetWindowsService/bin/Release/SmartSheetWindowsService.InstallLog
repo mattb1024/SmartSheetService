@@ -1,0 +1,19 @@
+﻿Installing assembly 'C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.InstallLog
+   assemblypath = C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.exe assembly.
+Committing assembly 'C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.InstallLog
+   assemblypath = C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.exe assembly.
+Remove InstallState file because there are no installers.
+Uninstalling assembly 'C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.InstallLog
+   assemblypath = C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.exe assembly.

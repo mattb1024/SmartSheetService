@@ -1,0 +1,40 @@
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\Atlas.dll
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\Autofac.dll
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\Common.Logging.Core.dll
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\Common.Logging.dll
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\Quartz.dll
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\Autofac.xml
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\Common.Logging.pdb
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\Common.Logging.xml
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\Common.Logging.Core.pdb
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\Common.Logging.Core.xml
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\Quartz.pdb
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\Quartz.xml
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\obj\Release\SmartSheetWindowsService.csprojResolveAssemblyReference.cache
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.exe.config
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.exe
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\SmartSheetWindowsService.pdb
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\obj\Release\SmartSheetWindowsService.exe
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\obj\Release\SmartSheetWindowsService.pdb
+C:\Users\mb001\Downloads\SmartSheetWindowsSvc 1.0\SmartSheetWindowsSvc v1.0\Source\SampleWindowsService\bin\Release\Atlas.xml
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\SmartSheetWindowsService.exe.config
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\obj\Release\SmartSheetWindowsService.exe
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\obj\Release\SmartSheetWindowsService.pdb
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\SmartSheetWindowsService.exe
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\SmartSheetWindowsService.pdb
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\Common.Logging.Core.dll
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\Common.Logging.dll
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\log4net.dll
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\Mail.dll
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\SendGrid.SmtpApi.dll
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\Mail.pdb
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\Atlas.xml
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\Autofac.xml
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\Common.Logging.pdb
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\Common.Logging.xml
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\Common.Logging.Core.pdb
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\Common.Logging.Core.xml
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\log4net.xml
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\Quartz.pdb
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\bin\Release\Quartz.xml
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\SmartSheetWindowsService\obj\Release\SmartSheetWindowsService.csprojResolveAssemblyReference.cache

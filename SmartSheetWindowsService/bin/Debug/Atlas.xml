@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Atlas</name>
+    </assembly>
+    <members>
+        <member name="T:Atlas.IContainerProvider">
+            <summary>
+            Provides access to the application's container, and methods to manage units of work within your system
+            </summary>
+        </member>
+        <member name="T:Atlas.IUnitOfWorkContainer">
+            <summary>
+            Encapsulates a unit of work within your system
+            </summary>
+        </member>
+        <member name="M:Atlas.IUnitOfWorkContainer.Resolve``1">
+            <summary>
+            Resolves an entity from the registration source
+            </summary>
+            <typeparam name="T">The type to resolve</typeparam>
+            <returns>An instance of the type resolved</returns>
+        </member>
+        <member name="M:Atlas.IUnitOfWorkContainer.InjectUnsetProperties(System.Object)">
+            <summary>
+            Injects any properties that have not been set that are registred in the container into the provided instance
+            </summary>
+            <param name="instance"></param>
+        </member>
+        <member name="T:Atlas.Host">
+            <summary>
+             Configures and starts hosted applications/services
+            </summary>
+        </member>
+        <member name="M:Atlas.Host.Configure``1">
+            <summary>
+             Configure a service with all defaults
+            </summary>
+            <typeparam name="THostedProcess">The service that implements IAmAHostedProcess</typeparam>
+            <returns>Default configuration</returns>
+        </member>
+        <member name="M:Atlas.Host.Configure``1(System.Action{Atlas.Configuration.Configuration{``0}})">
+            <summary>
+             Configure a service injecting the configuration via lambda expression
+            </summary>
+            <param name="configuration">Lambda expression to set configuration</param>
+            <typeparam name="THostedProcess">The service that implements IAmAHostedProcess</typeparam>
+            <returns>Configuration with settings from lambda expression</returns>
+        </member>
+        <member name="M:Atlas.Host.Configure``1(System.Action{Atlas.Configuration.Configuration{``0}},System.String[])">
+            <summary>
+             Configure a service injecting the configuration via lambda expression overriding arguments explicitly
+            </summary>
+            <param name="configuration">Lambda expression to set configuration</param>
+            <param name="arguments">The command line arguments to be used</param>
+            <typeparam name="THostedProcess">The service that implements IAmAHostedProcess</typeparam>
+            <returns>Configuration with settings from lambda expression overriding settings with arguments</returns>
+        </member>
+        <member name="M:Atlas.Host.UseAppConfig``1">
+            <summary>
+             Configure a service using the app.config file
+            </summary>
+            <typeparam name="THostedProcess">The service that implements IAmAHostedProcess</typeparam>
+            <returns>Configured service with settings in app.config file</returns>
+        </member>
+        <member name="M:Atlas.Host.Start``1(Atlas.Configuration.Configuration{``0})">
+            <summary>
+             Starts the configuration
+            </summary>
+            <param name="configuration">The configuration to be run</param>
+        </member>
+        <member name="M:Atlas.Configuration.Configuration`1.WithDependencyOnServiceNamed(System.String,System.TimeSpan)">
+            <summary>
+             Specifying a service name here will attempt to start the service if it is not running.
+             If the service does not start within the specified time a ServiceDependencyException is thrown and atlas will exit.
+            </summary>
+            <param name="serviceName">The name of the service to start</param>
+            <param name="timeToWaitForStart">The time to wait for the service to start</param>
+        </member>
+        <member name="M:Atlas.Configuration.Configuration`1.WithDependencyOnServiceNamed(System.String)">
+            <summary>
+             Specifying a service name here will attempt to start the service if it is not running.
+             If the service does not start within the default 15 seconds a ServiceDependencyException is thrown and atlas will exit.
+            </summary>
+            <param name="serviceName">The name of the service to start</param>
+        </member>
+        <member name="M:Atlas.Configuration.Configuration`1.AllowMultipleInstances">
+            <summary>
+             Allows multiple instances of this service to run, default is to not allow multiple instances
+            </summary>
+        </member>
+        <member name="M:Atlas.Configuration.Configuration`1.BeforeStart(System.Action)">
+            <summary>
+             Performs the specified action before atlas starts your service.
+            </summary>
+        </member>
+        <member name="M:Atlas.Configuration.Configuration`1.WithRegistrations(System.Action{Autofac.ContainerBuilder})">
+            <summary>
+             Autofac registrations of any dependencies that my service may have or use.
+             These dependencies are property injected into your service.
+             If your service uses constructor injection re-register your service as IAmAHostedProcess here.
+            </summary>
+        </member>
+        <member name="M:Atlas.Configuration.Configuration`1.WithArguments(System.String[])">
+            <summary>
+             Allows you to inject the command line arguments into your atlas.  These arguments override the run mode (console or service), and installation parameters.
+             Account, Startup, Username, Password, etc.
+            </summary>
+        </member>
+        <member name="M:Atlas.Configuration.Configuration`1.Named(System.String,System.String,System.String)">
+            <summary>
+             Allows you to specify the name the service.  Display names and descriptions are optional.
+            </summary>
+        </member>
+        <member name="T:Atlas.ContainerProvider">
+            <summary>
+            Provides access to the application's container, and methods to manage units of work within your system
+            </summary>
+        </member>
+        <member name="M:Atlas.ContainerProvider.CreateUnitOfWork">
+            <summary>
+            Creates a unit of work to provide scope around the application container
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Atlas.ContainerProvider.CreateUnitOfWork(System.Action{Autofac.ContainerBuilder})">
+            <summary>
+            Creates a unit of work with unit of work scoped registrations
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Atlas.ContainerProvider.Instance">
+            <summary>
+            Gets the instance of the container provider
+            </summary>
+        </member>
+        <member name="P:Atlas.ContainerProvider.ApplicationContainer">
+            <summary>
+            The application's outer container
+            </summary>
+        </member>
+    </members>
+</doc>

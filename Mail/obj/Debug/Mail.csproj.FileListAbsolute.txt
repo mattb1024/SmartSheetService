@@ -1,0 +1,16 @@
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\Mail\bin\Debug\Mail.dll
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\Mail\bin\Debug\Mail.pdb
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\Mail\bin\Debug\SendGrid.SmtpApi.dll
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\Mail\obj\Debug\Mail.dll
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\Mail\obj\Debug\Mail.pdb
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\Mail\bin\Debug\log4net.dll
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\Mail\bin\Debug\log4net.xml
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\1\SmartSheetWindowsSvc v1.0\Source\Mail\obj\Debug\Mail.csprojResolveAssemblyReference.cache
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\Mail\bin\Debug\Mail.dll
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\Mail\bin\Debug\Mail.pdb
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\Mail\bin\Debug\log4net.dll
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\Mail\bin\Debug\SendGrid.SmtpApi.dll
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\Mail\bin\Debug\log4net.xml
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\Mail\obj\Debug\Mail.csprojResolveAssemblyReference.cache
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\Mail\obj\Debug\Mail.dll
+C:\Users\mb001\Documents\Visual Studio 2013\Service Builds\2\SmartSheetWindowsSvc v1.0\Source\Mail\obj\Debug\Mail.pdb
